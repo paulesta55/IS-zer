@@ -6,5 +6,5 @@ include Facebook::Messenger
 #   subscribed_fields: %w[feed mention name]
 
 Bot.on :message do |message|
-  message.reply(text: 'anand la pute')
+  message.reply(text: 'Hello World !')
 end
